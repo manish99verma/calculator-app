@@ -8,6 +8,13 @@ body {
   margin: 0px;
 }
 
+.app-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   font-family: rubi;
   background-color: #2d2a37;
@@ -106,4 +113,12 @@ body {
 
 .buttons-container .button-light {
   background-color: #7f45e2;
+}
+
+.developed-by-text {
+  color: rgb(66, 66, 66);
+  margin: 30px 0px 10px 0px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
 }
